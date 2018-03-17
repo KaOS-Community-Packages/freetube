@@ -1,0 +1,20 @@
+--- a/package.json	2018-03-07 19:28:25.000000000 -0600
++++ b/package.json	2018-03-17 00:12:05.000000000 -0500
+@@ -11,6 +11,7 @@
+     "publish": "electron-forge publish",
+     "make:darwin": "electron-forge make --platform=darwin",
+     "make:linux": "electron-forge make --platform=linux",
++    "make:kaos": "electron-packager . freetube --platform linux --arch x64 --out out/",
+     "make:win32": "electron-forge make --platform=win32"
+   },
+   "keywords": [],
+@@ -55,7 +56,8 @@
+   "devDependencies": {
+     "electron-forge": "^5.1.1",
+     "electron-prebuilt-compile": "1.8.2",
+-    "electron-winstaller": "^2.6.4"
++    "electron-winstaller": "^2.6.4",
++    "electron-packager": "^11.1.0"
+   },
+   "dependencies": {
+     "autolinker": "^1.6.2",
