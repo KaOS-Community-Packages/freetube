@@ -1,28 +1,28 @@
 pkgname=freetube
 _pkgfullname=FreeTube
-pkgver=0.1.3.80
-_pkgfullver=0.1.3-beta
+pkgver=0.3.0.80
+_pkgfullver=0.3.0-beta
 pkgrel=1
 pkgdesc="An open source youtube app for privacy"
 url="https://github.com/${_pkgfullname}App/${_pkgfullname}"
 arch=('x86_64')
 license=('GPL')
 depends=(
-        'atk'
-        'avahi'
-        'cairo'
-        'e2fsprogs'
-        'gconf'
-        'gdk-pixbuf2'
-        'gtk2'
-        'keyutils'
-        'krb5'
-        'libcups'
-        'libdatrie'
-        'libthai'
-        'libxinerama'
-        'pango'
-        'pixman'
+    'atk'
+    'avahi'
+    'cairo'
+    'e2fsprogs'
+    'gconf'
+    'gdk-pixbuf2'
+    'gtk2'
+    'keyutils'
+    'krb5'
+    'libcups'
+    'libdatrie'
+    'libthai'
+    'libxinerama'
+    'pango'
+    'pixman'
 )
 makedepends=(
     'findutils'
@@ -35,8 +35,8 @@ source=(
     'freetube.desktop'
 )
 sha1sums=(
-    '8c6bee6bd4f2138c1f225ee552571d9f86561dc0'
-    '7a0bd67bd3093c66836e75d25b187938f43cd389'
+    '24958d73c2757c1fedf79dc0db16506020c9e5c8'
+    '4335ad89b57b52793828a96fd380190bbf63b1e9'
     'c90c0e0b5afd5bec0070044e7c6fa097c1ebf660'
     '7c0561404fac2fca774c69447442a00f60e7240a'
 )
